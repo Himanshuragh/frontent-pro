@@ -3,6 +3,31 @@
 
    
 
+        background-repeat: no-repeat;
+        background-position:center center; /* Centers the image */
+       /* background-size: cover; /* Fills the container without stretching */
+     /*   min-height: 100vh; /* Adjust height as needed (e.g., 500px, 80vh) */
+        
+        /* Optional: Add a fallback background color */
+        background-color: black; 
+        
+        /* Your existing styles */
+        color: black;
+        font-family: "Boldonse", system-ui;
+        font-weight: 400;
+        font-style: normal;
+     
+
+
+
+
+
+
+
+
+
+
+
     background-repeat: no-repeat;
     
     color: black;

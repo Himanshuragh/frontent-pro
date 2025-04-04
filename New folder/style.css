@@ -1,0 +1,589 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: none;
+}
+
+.parent{
+   width: 100%;
+   box-sizing: border-box;
+
+  
+
+
+    background-image: url(carphoto.png);
+    background-repeat: no-repeat;
+    
+    color: black;
+    background-color: white;
+}
+.parentson{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: xx-small;
+
+  
+}
+nav{
+    display: flex;
+  /* box-shadow: 0px 0.5px 5px;
+   color: #9e610c;*/
+   padding: 2px 0px 3px 40px;
+   position: sticky;
+  
+   top: 0px;
+   justify-content: space-between;
+   align-items: center;
+   font-size:medium;
+    gap: 40px;
+   color:#faa307;
+   /*box-shadow: 1px 0px 6px;*/
+
+}
+.parentson h1:hover{
+  color:blanchedalmond;
+  transform: scale(1.1);
+}
+nav ul{
+ display: flex;
+ list-style: none;
+ gap: 40px;
+ padding-right: 60px;
+ font-size: small;
+}
+nav ul li a:hover{
+  color: white;
+  text-shadow:#1B1B1B ;
+  transform: scale(1.5);
+  
+}
+nav ul li a{
+    color:#faa307;
+
+}
+.gp{
+   display: grid;
+   align-content: center;
+   justify-content: center;
+   /*
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;*/
+ font-family: "Playfair Display", serif;
+ font-optical-sizing: auto;
+ font-size: 60px;
+}
+  
+
+.parent1{
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+grid-template-rows: 200px 300px 280px;
+  /* box-shadow: 2px 3px 90px;*/
+   color:black;
+ 
+}
+.parent2{
+
+  width: 100%;
+  box-sizing: border-box;
+
+
+    background-image: url(lambo4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    background-color: gray;
+    display: grid;
+    /*height: 200vh;*/
+    grid-template-columns: 550px 406px 550px;
+    grid-template-rows: 200px 300px 300px;
+ 
+}
+.gp1,.gp2,.gp3,.gp4,.gp5,.gp6,.gp7{
+ 
+}
+.gp1{
+    grid-column-start:1;
+    grid-column-end:4;
+   
+}
+.gp2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+   height: 500px;
+}
+.gp5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+  
+  .icon2{
+    display: flex;
+    position:fixed;
+    top: 0;
+    bottom: 200px;
+  }
+  .fa-solid fa-caret-up{
+    position: sticky;
+    top: 0;
+  }
+
+  .boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  
+  
+.parent3{
+  width: 100%;
+  box-sizing: border-box;
+
+
+  display: flex;
+justify-content: space-evenly;
+ gap: 35px;
+ /*padding-top: 100px;*/
+ padding-bottom: 40px;
+ background-color:#1B1B1B;
+
+/* animation: name duration timing-function delay iteration-count direction fill-mode;*/
+
+ 
+}
+
+.parent2son1 img:hover{
+  transform: scale(1.05);
+  border-radius: 40px;
+  transition: 2s;
+}
+
+.parent2son1:hover{
+  transform: scale(1.05);
+   overflow: hidden;
+   transition: 1s;
+}
+.parent2son1{
+  
+  box-shadow: 2px 0px 1px wheat;
+  border-radius: 20px;
+  color:bisque;
+  animation: animi;
+  height: 500px;
+}
+
+
+
+.parent2son2:hover{
+  transform: scale(1.05);
+   overflow: hidden;
+   transition: 1s;
+}
+
+.parent2son2 img:hover{
+  transform: scale(1.05);
+  border-radius: 40px;
+  transition: 2s;
+}
+
+.parent2son2{
+ 
+  box-shadow: 2px 0px 1px wheat;
+  border-radius: 20px;
+  color: bisque;
+}
+
+
+.parent2son3:hover{
+  transform: scale(1.05);
+  overflow: hidden;
+  transition: 1s;
+}
+
+.parent2son3 img:hover{
+  transform: scale(1.05);
+  border-radius: 40px;
+  transition: 2s;
+}
+.parent2son3{
+ 
+  box-shadow: 2px 0px 1px wheat;
+  border-radius: 20px;
+  color:bisque;
+}
+
+
+@keyframe animi{
+  
+
+  0%{
+    background-image: url(lambo1.1jpg);
+    
+
+  }
+
+
+
+
+}
+
+/*
+.parent4 img:hover{
+  background-image: url(sportscar.jpg);
+  cursor: pointer;
+
+}
+*/
+
+.parent4 img{
+  animation: change 2s infinite ease;
+}
+
+@keyframes change {
+
+
+  20%
+  {
+    background-image: url(lambo1.1jpg);
+    transform: translate(0px,opx);
+
+  }
+  50%
+  {
+    background-image: url(sports5.webp);
+
+  }
+  70%{
+     
+    background-image: url(lambo1.1jpg);
+
+  }
+
+}
+
+  
+.parent4{
+  width: 100%;
+  box-sizing: border-box;
+
+  padding-top: 150px;
+  background-color: whitesmoke;
+  
+  justify-content: center;
+   
+
+ font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 60px;
+
+
+ 
+  
+}
+
+
+.parent5{
+  width: 100%;
+  box-sizing: border-box;
+
+
+  height: 500px;
+  width: 100%;
+  background-color: #1B1B1B;
+  color: white;
+  padding-left: 80px;
+  padding-top: 80px;
+  gap: 30px;
+}
+.son1{
+  display: flex;
+  gap: 30px;
+}
+.son2{
+  display: flex;
+  gap: 30px;
+}
+
+.parent6{
+  width: 100%;
+  box-sizing: border-box;
+
+  height: 300px;
+  display: flex;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  
+}
+.parent6son{
+  padding-top: 70px;
+  padding-left: 50px;
+  border: 0.1 solid black;
+}
+.parent6son2 img{
+  padding-left: 150px;
+
+}
+.parent6son button{
+  padding: 10px 50px 10px 50px;
+ background-color: white;
+  transition:  background-color 1s ease;
+  
+}
+
+ .parent6son button:hover{
+
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+  /*transition: rotateY(90deg) scale(1.5);*/
+
+
+}
+#container{
+  box-shadow: 2px 3px 90px;
+   color:black;
+}
+
+#container .parent8{
+  background-image: url(Model=Urus\ SE\,\ Type=LightCC\ \(1\).jpg);
+  height: 800px;
+  animation: hero 10s infinite linear;
+}
+.parent8son1{
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 90px;
+  color: #1B1B1B;
+
+}
+.parent8son2{
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 5px;
+  text-decoration:line-through;
+  display: flex;
+  GAP: 40PX;
+  color: #1B1B1B;
+}
+
+.parent8son3{
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+
+
+@keyframes hero{
+  30%{
+   background-image: url(temerario_model_chooser.jpg);
+  }
+  50%{
+  background-image: url(revuelto_home.jpg);
+  }
+  80%{
+    background-image: url(temerario_model_chooser.jpg);
+
+  }
+}
+#container1{
+  display: flex;
+  height: 700px;
+  padding-top: 100px;
+ 
+}
+#container1 .parent9{
+  /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+  animation: hero1 5s infinite ease-out ;
+  
+  background-image: url(white1.webp);
+  background-repeat:repeat-x;
+ /* border: 1px  solid black;*/
+  box-shadow: 0px 1px 3px;
+  color:bisque;
+  
+  height: 500px;
+  width: 1000px;
+ 
+  
+ 
+}
+
+@keyframes hero1{
+  0%{
+    background-image: url(white1.webp);
+  }
+  3%{
+    background-image: url(white2.webp);
+  }
+  5%{
+    background-image: url(white3.webp);
+  }
+  8%{
+    background-image: url(white4.webp);
+  }
+  15%{
+    background-image: url(white5.webp);
+  }
+  
+  21%{
+    background-image: url(white6.webp);
+  }
+  
+  27%{
+    background-image: url(white7.webp);
+  }
+  
+  35%{
+    background-image: url(white9.webp);
+  }
+  
+  45%{
+    background-image: url(white10.webp);
+  }
+  
+  50%{
+    background-image: url(white11.webp);
+  }
+  
+  60%{
+    background-image: url(white14.webp);
+  }
+  
+  65%{
+    background-image: url(white17.webp);
+  }
+  
+  70%{
+    background-image: url(white19.webp);
+  }
+  
+  75%{
+    background-image: url(white21.webp);
+  }
+  
+  80%{
+    background-image: url(white24.webp);
+  }
+  
+  85%{
+    background-image: url(white27.webp);
+  }
+  
+  90%{
+    background-image: url(white28.webp);
+  }
+
+ 
+}
+#container1{
+  background-color:white;
+
+}
+.navbar{
+  background-color: white;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  padding-left: 350px;
+ /* border: 1px solid #1B1B1B;*/
+
+}
+.navdiv1{
+  display: flex;
+ gap: 100px;
+  color: black;
+}
+.navdiv1 h1:hover{
+  color: black;
+  cursor:pointer;
+}
+
+
+.navbar2{
+  background-color: white;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  padding-left: 100px;
+
+ /* border: 1px solid #1B1B1B;*/
+
+}
+.navbar2div1{
+  color: black;
+  padding-left: 600px;
+  font-size: x-large;
+}
+.parent9son1{
+  padding-top: 100px;
+  padding-left: 20px;
+  gap: 30px;
+  text-shadow: 1px 0.1px 1px #1B1B1B;
+  border: 2px solid black;
+}
+.parent9son1 h1{
+  text-decoration: underline;
+  
+}
+
+.parent6bhai1{
+  display: flex;
+  gap: 110px;
+  padding-bottom: 100px;
+}
+.parent6bhai1son1{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.parent6bhai1son2 button{
+  padding: 10px 50px 10px 50px;
+ background-color: white;
+  transition:  background-color 1s ease;
+}
+
+.parent6bhai1son2 button:hover{
+
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+.parent6bhai2{
+  display: flex;
+  gap: 110px;
+  padding-bottom: 50px;
+}
+.parent6bhai2son1{
+  
+  padding-left: 100px;
+}
+
+.parent6bhai2son2 button{
+  padding: 10px 50px 10px 50px;
+ background-color: white;
+  transition:  background-color 1s ease;
+}
+
+.parent6bhai2son2 button:hover{
+
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
