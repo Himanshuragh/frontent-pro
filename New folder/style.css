@@ -9,13 +9,13 @@
    box-sizing: border-box;
 
   
-
+/*
 
     background-image: url(carphoto.png);
     background-repeat: no-repeat;
     
     color: black;
-    background-color: white;
+    background-color: white;*/
 }
 .parentson{
   display: flex;
@@ -38,6 +38,8 @@ nav{
    align-items: center;
    font-size:medium;
     gap: 40px;
+    background-color: #0A0A0A;
+  /* background-color: transparent;*/
    color:#faa307;
    /*box-shadow: 1px 0px 6px;*/
 
@@ -56,7 +58,9 @@ nav ul{
 nav ul li a:hover{
   color: white;
   text-shadow:#1B1B1B ;
-  transform: scale(1.5);
+  transform: scale(2.0);
+
+
   
 }
 nav ul li a{
@@ -85,6 +89,10 @@ nav ul li a{
 grid-template-rows: 200px 300px 280px;
   /* box-shadow: 2px 3px 90px;*/
    color:black;
+
+
+   background-image: url(carphoto.png);
+   background-repeat: no-repeat;
  
 }
 .parent2{
@@ -148,19 +156,23 @@ grid-template-rows: 200px 300px 280px;
 .parent3{
   width: 100%;
   box-sizing: border-box;
-
-
   display: flex;
-justify-content: space-evenly;
- gap: 35px;
- /*padding-top: 100px;*/
- padding-bottom: 40px;
- background-color:#1B1B1B;
-
-/* animation: name duration timing-function delay iteration-count direction fill-mode;*/
-
- 
+  justify-content: space-evenly;
+  gap: 35px;
+  padding-bottom: 40px;
+  background-color:#1B1B1B;
+  
 }
+
+  
+
+
+
+.parent2son1 img{
+  border-radius: 30px;
+}
+
+
 
 .parent2son1 img:hover{
   transform: scale(1.05);
@@ -171,14 +183,13 @@ justify-content: space-evenly;
 .parent2son1:hover{
   transform: scale(1.05);
    overflow: hidden;
-   transition: 1s;
+   transition: 2s;
 }
 .parent2son1{
   
   box-shadow: 2px 0px 1px wheat;
   border-radius: 20px;
   color:bisque;
-  animation: animi;
   height: 500px;
 }
 
@@ -189,7 +200,9 @@ justify-content: space-evenly;
    overflow: hidden;
    transition: 1s;
 }
-
+.parent2son2 img{
+  border-radius: 30px;
+}
 .parent2son2 img:hover{
   transform: scale(1.05);
   border-radius: 40px;
@@ -209,11 +222,15 @@ justify-content: space-evenly;
   overflow: hidden;
   transition: 1s;
 }
+.parent2son3 img{
+  border-radius: 20px;
 
+}
 .parent2son3 img:hover{
   transform: scale(1.05);
   border-radius: 40px;
   transition: 2s;
+  overflow: hidden;
 }
 .parent2son3{
  
@@ -223,19 +240,6 @@ justify-content: space-evenly;
 }
 
 
-@keyframe animi{
-  
-
-  0%{
-    background-image: url(lambo1.1jpg);
-    
-
-  }
-
-
-
-
-}
 
 /*
 .parent4 img:hover{
@@ -245,17 +249,14 @@ justify-content: space-evenly;
 }
 */
 
-.parent4 img{
-  animation: change 2s infinite ease;
-}
 
-@keyframes change {
+@keyframes change{
 
 
   20%
   {
     background-image: url(lambo1.1jpg);
-    transform: translate(0px,opx);
+
 
   }
   50%
@@ -271,13 +272,12 @@ justify-content: space-evenly;
 
 }
 
-  
 .parent4{
   width: 100%;
   box-sizing: border-box;
 
   padding-top: 150px;
-  background-color: whitesmoke;
+
   
   justify-content: center;
    
@@ -285,6 +285,10 @@ justify-content: space-evenly;
  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-size: 60px;
+
+  
+
+  background:linear-gradient(to right,#eef2f3,#85848e) ;
 
 
  
@@ -314,6 +318,49 @@ justify-content: space-evenly;
   gap: 30px;
 }
 
+/* FIFTH PAGE*/
+
+.navbar2{
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  padding-left: 100px;
+  background-color: whitesmoke;
+
+ /* border: 1px solid #1B1B1B;*/
+
+}
+.navbar2div1{
+  color: black;
+  padding-left: 600px;
+  font-size: x-large;
+}
+
+.parent9son1{
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20PX;
+  gap: 30px;
+  box-shadow: 2px 2px 2px #1B1B1B;
+  border: 2px solid black;
+}
+.parent9son1 h1{
+  text-decoration: underline;
+  
+}
+
+/* SIXTH PAGE */
+
+
+#container2{
+  
+  background: linear-gradient(to right,#eef2f3, #85848e);
+
+    width: 100%;
+    height: 100vh;
+    color: #444759;
+}
+
 .parent6{
   width: 100%;
   box-sizing: border-box;
@@ -326,31 +373,91 @@ justify-content: space-evenly;
   
 }
 .parent6son{
-  padding-top: 70px;
+ padding-top: 55PX;
   padding-left: 50px;
   border: 0.1 solid black;
+  
 }
 .parent6son2 img{
-  padding-left: 150px;
+  padding-left: 200px;
 
 }
 .parent6son button{
-  padding: 10px 50px 10px 50px;
- background-color: white;
+  padding: 8px 50px 8px 50px;
+ background-color: #686773;
   transition:  background-color 1s ease;
+  color: rgb(0, 0, 0);
+  
+  border: 2px aolid black;
   
 }
 
  .parent6son button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+ /* transition: rotateY(90deg) scale(1.5);*/
+
+
+}
+.parent6bhai1{
+  display: flex;
+ /* gap: 110px;*/
+  padding-bottom: 50px;
+}
+.parent6bhai1son1{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.parent6bhai1son3{
+  padding-left: 200px;
+}
+.parent6bhai1son2{
+  padding-left: 50px;
+  padding-top: 55PX;
+}
+ 
+.parent6bhai1son2 button{
+  padding: 8px 50px 8px 50px;
+ background-color: #686773;
+  transition:  background-color 1s ease;
+}
+
+.parent6bhai1son2 button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.parent6bhai2{
+  display: flex;
+  padding-bottom: 50px;
+}
+.parent6bhai2son1{
+  
+  padding-left: 100px;
+}
+.parent6bhai2son3{
+  padding-left: 215PX;
+}
+.parent6bhai2son2{
+  padding-left: 50PX;
+  padding-top: 55PX;
+}
+.parent6bhai2son2 button{
+  padding: 8px 50px 8px 50px;
+ background-color: #686773;
+  transition:  background-color 1s ease;
+}
+.parent6bhai2son2 button:hover{
 
   background-color: black;
   color: white;
   cursor: pointer;
-
-  /*transition: rotateY(90deg) scale(1.5);*/
-
-
 }
+
+
+
 #container{
   box-shadow: 2px 3px 90px;
    color:black;
@@ -402,6 +509,8 @@ justify-content: space-evenly;
   display: flex;
   height: 700px;
   padding-top: 100px;
+  background-color: black;
+  gap: 30px;
  
 }
 #container1 .parent9{
@@ -413,8 +522,9 @@ justify-content: space-evenly;
  /* border: 1px  solid black;*/
   box-shadow: 0px 1px 3px;
   color:bisque;
-  
-  height: 500px;
+  box-shadow: 2px 3px 8px black;
+  padding-left: 40px;
+  height: 600px;
   width: 1000px;
  
   
@@ -493,7 +603,7 @@ justify-content: space-evenly;
 
 }
 .navbar{
-  background-color: white;
+  background-color: whitesmoke;
   height: 50px;
   position: sticky;
   top: 0px;
@@ -511,79 +621,3 @@ justify-content: space-evenly;
   cursor:pointer;
 }
 
-
-.navbar2{
-  background-color: white;
-  height: 50px;
-  position: sticky;
-  top: 0px;
-  padding-left: 100px;
-
- /* border: 1px solid #1B1B1B;*/
-
-}
-.navbar2div1{
-  color: black;
-  padding-left: 600px;
-  font-size: x-large;
-}
-.parent9son1{
-  padding-top: 100px;
-  padding-left: 20px;
-  gap: 30px;
-  text-shadow: 1px 0.1px 1px #1B1B1B;
-  border: 2px solid black;
-}
-.parent9son1 h1{
-  text-decoration: underline;
-  
-}
-
-.parent6bhai1{
-  display: flex;
-  gap: 110px;
-  padding-bottom: 100px;
-}
-.parent6bhai1son1{
-  padding-top: 20px;
-  padding-left: 100px;
-}
-
-.parent6bhai1son2 button{
-  padding: 10px 50px 10px 50px;
- background-color: white;
-  transition:  background-color 1s ease;
-}
-
-.parent6bhai1son2 button:hover{
-
-  background-color: black;
-  color: white;
-  cursor: pointer;
-}
-
-
-
-
-.parent6bhai2{
-  display: flex;
-  gap: 110px;
-  padding-bottom: 50px;
-}
-.parent6bhai2son1{
-  
-  padding-left: 100px;
-}
-
-.parent6bhai2son2 button{
-  padding: 10px 50px 10px 50px;
- background-color: white;
-  transition:  background-color 1s ease;
-}
-
-.parent6bhai2son2 button:hover{
-
-  background-color: black;
-  color: white;
-  cursor: pointer;
-}
