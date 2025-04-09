@@ -17,6 +17,38 @@
     color: black;
     background-color: white;*/
 }
+
+
+
+.parent1{
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+grid-template-rows: 200px 300px 280px;
+/* box-shadow: 2px 3px 90px;*/
+ color:black;
+
+
+ background-image: url(coverlambo2.webp);
+ 
+ background-repeat: no-repeat;
+ animation: front 10s ease infinite;
+
+}
+@keyframes front{
+
+0%{
+background-image: url(carphoto.png);
+}
+
+25%{
+background-image: url(coverlambo1_d.webp);
+}
+50%{
+background-image: url(cover_2_d.webp);
+}
+}
+
 .parentson{
   display: flex;
   justify-content: center;
@@ -42,6 +74,7 @@ nav{
   /* background-color: transparent;*/
    color:#faa307;
    /*box-shadow: 1px 0px 6px;*/
+   font-size: 10px;
 
 }
 .parentson h1:hover{
@@ -78,23 +111,9 @@ nav ul li a{
     font-size: larger;*/
  font-family: "Playfair Display", serif;
  font-optical-sizing: auto;
- font-size: 60px;
+ font-size: 40px;
 }
   
-
-.parent1{
-    width: 100%;
-    box-sizing: border-box;
-    display: grid;
-grid-template-rows: 200px 300px 280px;
-  /* box-shadow: 2px 3px 90px;*/
-   color:black;
-
-
-   background-image: url(carphoto.png);
-   background-repeat: no-repeat;
- 
-}
 .parent2{
 
   width: 100%;
@@ -148,26 +167,19 @@ grid-template-rows: 200px 300px 280px;
     font-weight: 400;
     font-style: normal;
   }
-  
-
-
-  
-  
 .parent3{
   width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
   gap: 35px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
+  padding-top: 50px;
   background-color:#1B1B1B;
+  font-size: 10px;
+
   
 }
-
-  
-
-
-
 .parent2son1 img{
   border-radius: 30px;
 }
@@ -190,11 +202,8 @@ grid-template-rows: 200px 300px 280px;
   box-shadow: 2px 0px 1px wheat;
   border-radius: 20px;
   color:bisque;
-  height: 500px;
+  height: 400px;
 }
-
-
-
 .parent2son2:hover{
   transform: scale(1.05);
    overflow: hidden;
@@ -305,17 +314,17 @@ grid-template-rows: 200px 300px 280px;
   width: 100%;
   background-color: #1B1B1B;
   color: white;
-  padding-left: 80px;
-  padding-top: 80px;
+  padding-left: 70px;
+  padding-top: 70px;
   gap: 30px;
 }
 .son1{
   display: flex;
-  gap: 30px;
+  gap: 150px;
 }
 .son2{
   display: flex;
-  gap: 30px;
+  gap: 130px;
 }
 
 /* FIFTH PAGE*/
@@ -326,14 +335,15 @@ grid-template-rows: 200px 300px 280px;
   top: 0px;
   padding-left: 100px;
   background-color: whitesmoke;
+  font-size: 10px;
 
  /* border: 1px solid #1B1B1B;*/
 
 }
 .navbar2div1{
   color: black;
-  padding-left: 600px;
-  font-size: x-large;
+  padding-left: 630px;
+  font-size: 15px;
 }
 
 .parent9son1{
@@ -607,9 +617,10 @@ grid-template-rows: 200px 300px 280px;
   height: 50px;
   position: sticky;
   top: 0px;
-  padding-left: 350px;
+  padding-left: 450px;
+  font-size: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  /* border: 1px solid #1B1B1B;*/
-
 }
 .navdiv1{
   display: flex;
