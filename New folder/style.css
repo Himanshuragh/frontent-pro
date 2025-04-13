@@ -4,29 +4,21 @@
   overflow: none;
   box-sizing: border-box;
 }
-
-
+/* FIRST NAVBAR*/
 nav{
     display: flex;
-  /* box-shadow: 0px 0.5px 5px;
-   color: #9e610c;*/
    padding: 2px 0px 3px 40px;
    position: sticky;
-  
    top: 0px;
    justify-content: space-between;
    align-items: center;
    font-size:medium;
     gap: 40px;
     background-color: black;
-  /* background-color: transparent;*/
    color:#FEFEFA;
-   /*box-shadow: 1px 0px 6px;*/
    font-size: 10px;
    box-shadow: 0px 0px 20px wheat;
-
 }
-
 .parentson{
   display: flex;
   justify-content: space-evenly;
@@ -34,14 +26,10 @@ nav{
   gap: 20%;
   font-size: 70%;
 }
-
 .parentson h1:hover{
   color:blanchedalmond;
   transform: scale(1.1);
-  
 }
-
-
 nav ul{
  display: flex;
  list-style: none;
@@ -52,53 +40,49 @@ nav ul{
 nav ul li a:hover{
   color: white;
   text-shadow:#1B1B1B ;
-  transform: scale(2.0);++
+  transform: scale(2.0);
 }
 nav ul li a{
     color:#FEFEFA;
-
 }
-
-
-/*
-
-    background-image: url(carphoto.png);
+/* background-image: url(carphoto.png);
     background-repeat: no-repeat;
-    
     color: black;
     background-color: white;*/
+
+/* FRONT PAGE*/
 .parent1{
- 
 box-shadow: 1px 40px 40px wheat;
-grid-template-rows: 200px 300px 280px;
-/* box-shadow: 2px 3px 90px;*/
  color:black;
  text-shadow: 20px 3px 50px wheat;
 /*
  background-image: url(frontpage.webp);
  height: 300px;
- 
  background-repeat: no-repeat;
  animation: front 10s ease infinite;*/
-  height: 705px;
+  height: 855px;
   background-color: black;
 }
-.gp img{
-  padding-left: 10px;
-  margin-left: 300px;
+.gp{
+  height: 610px;
+  background-image: url(frontpage.webp);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  padding-top: 0px;
+  top: 0px;
+  background-size: cover;
+  padding-left: 30px;
+  margin-left: 120px;
 }
-text h1{
-  margin-left: 300px;
-  padding-top: 100px;
-  color: wheat;
-  font-size:50px ;
-}
+
 .gpbro{
  display: flex;
- font-size: xx-small;
- gap: 160px;
- padding-left: 450px;
-  color: white;
+ font-size: x-small;
+ gap: 250px;
+ padding-left: 300px;
+ color: white;
 }
 .gpbro button{
   background-color: black;
@@ -110,18 +94,30 @@ text h1{
   background-color: #eef2f3;
   color: #444759;
 }
+.gpbro1{
+  color: #eef2f3;
+  padding-left: 200px;
+}
+.gpbro1 h1{
+  font-size: 140px;
+}
 .lambo h2{
   color: #eef2f3;
-  font-size: 15px;
+  font-size: 70px;
   font-family: serif;
   font-style: oblique;
-  padding: 50px 130px 0px 130px;
+  left: 5%;
+  top: 15%;
   font-style: italic;
-  text-decoration:dotted;
+  z-index: 1;
+  position: absolute;
+  text-shadow: none;
+  text-shadow: 0px 0px 5px whitesmoke;
 }
+/*
 .gp{
   height: 580px;
-}
+}*/
 /*
 @keyframes front{
 0%{
@@ -133,7 +129,6 @@ background-image: url(coverlambo1_d.webp);
 50%{
 background-image: url(cover_2_d.webp);
 }
-
 }
 */
 /*
@@ -152,39 +147,6 @@ background-image: url(cover_2_d.webp);
    background-repeat: no-repeat;
  
 }
-
-
-
-.gp1,.gp2,.gp3,.gp4,.gp5,.gp6,.gp7{
- 
-}
-.gp1{
-    grid-column-start:1;
-    grid-column-end:4;
-   
-}
-.gp2{
-    grid-row-start: 2;
-    grid-row-end: 4;
-
-   height: 500px;
-}
-.gp5{
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
-  
-  .fa-solid fa-caret-up{
-    position: sticky;
-    top: 0;
-  }
-
-  .boldonse-regular {
-    font-family: "Boldonse", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
 
 .parent3{
   display: flex;
@@ -276,14 +238,10 @@ background-image: url(cover_2_d.webp);
   border-radius: 20px;
   color:bisque;
 }
-
-
-
 /*
 .parent4 img:hover{
   background-image: url(sportscar.jpg);
   cursor: pointer;
-
 }
 */
 .navbar{
@@ -308,9 +266,6 @@ background-image: url(cover_2_d.webp);
   color: black;
   cursor:pointer;
 }
-
-
-
 #container{
   box-shadow: 2px 3px 90px;
    color:black;
@@ -612,7 +567,6 @@ background-image: url(cover_2_d.webp);
 
 
 #container2{
-  
   background: linear-gradient(to right,#eef2f3, #85848e);
 
     width: 100%;
@@ -725,21 +679,18 @@ background-image: url(cover_2_d.webp);
 
 
 @media screen  and (max-width:750px)
- {
+{
+ 
 
   *{
     overflow: none;
   }
   .parent1{
-  display: grid;
-  grid-template-rows: 200px 300px 280px;
+   flex-wrap: wrap;
    color:black;
-    height: 750px; 
+    height: 690px; 
   }
- .parent1 img{
-  height: 800px;
-  overflow: hidden;
- }
+
 .parent3{
   width: 100%;
   box-sizing: border-box;
@@ -795,30 +746,110 @@ background-image: url(cover_2_d.webp);
 }
 
 #container3{
-  display: flex;
  justify-content: space-evenly;
  flex-wrap: wrap;
-
+ height: 1500%;
+ padding-top: 500px;
+ 
 }
 .parent10{
   clip-path: polygon(300px 0%, 100% 0%, calc(100% - 300px) 100%, 0% 100%);
 }
 .parent10 img{
-  height: 250px;
+  height: 400px;
+  overflow: hidden;
 }
-.parent10b
-
-
 .parent6{
- 
- 
-
   height: 1000px;
  flex-wrap: wrap;
+}
+
+.gp{
+
+  background-image: url(frontpage.webp);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:700px;
+
+}
+.lambo h2{
+  color: #eef2f3;
+  font-size: 40px;
+  font-family: serif;
+  font-style: oblique;
+  left: 25%;
+  top: 40%;
+  font-style: italic;
+  z-index: 1;
+  position: absolute;
+  text-shadow: none;
+}
+.gpbro{
+  display: flex;
+  font-size: xx-small;
+  gap: 50px;
+  padding-left: 200px;
+  color: white;
+ }
+ .gpbro button{
+   background-color: black;
+   color: antiquewhite;
+   padding: 10px 40px 10px 40px ;
+   border-radius: 40px;
+ }
+ .gpbro button:hover{
+   background-color: #eef2f3;
+   color: #444759;
+ }
+ .gpbro1{
+   color: #eef2f3;
+   padding-left: 200px;
+ }
+ .gpbro1 h1{
+   font-size: 140px;
+ }
+
+
+ .parent6{
+  width: 100%;
+  box-sizing: border-box;
+
+  height: 300px;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  
+}
+   
+
+.parent6bhai1son1{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.parent6bhai1{
+ flex-wrap: wrap;
+ /* gap: 110px;*/
+  padding-bottom: 50px;
+}
+
+
+.parent5{
+  width: 100%;
+  box-sizing: border-box;
+  height: 1000px;
+  width: 100%;
+  background-color: #1B1B1B;
+  color: white;
+  padding-left: 70px;
+  padding-top: 70px;
+  gap: 30px;
 
 }
 
- /*
+
+ 
 .navbar{
   background-color: whitesmoke;
   position: sticky;
@@ -828,7 +859,7 @@ background-image: url(cover_2_d.webp);
   font-size: 10px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  /* border: 1px solid #1B1B1B;*/
- /*
+ 
 }
 .navdiv1{
   display: flex;
@@ -840,13 +871,6 @@ background-image: url(cover_2_d.webp);
   color: black;
   cursor:pointer;
 }
-
-*/
  }
 
-
-
-
- 
-      /* /* 4th page  *//*
-      
+}
